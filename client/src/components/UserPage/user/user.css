@@ -1,0 +1,39 @@
+.listing{
+    color:white
+}
+
+.black-bar {
+    border: none;
+    height: 15px;
+    /* background-color: white; */
+  }
+
+.login-form{
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-container{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f8f8;
+}
+
+.blue-button {
+    background-color: lightblue;
+    color: white;
+  }
+
+.no-review{
+    font-size: 24px; /* adjust to desired size */
+    text-align: center;
+}
+
+h1{
+    font-size : 36px;
+    color : orangered;
+    font-style: italic;
+}

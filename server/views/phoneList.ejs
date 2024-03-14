@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Phone List</title>
+  </head>
+  <body>
+    <h1>Phone List</h1>
+    <% if (data.length === 0) { %>
+      <p>No phones found.</p>
+    <% } else { %>
+      <ul>
+        <% data.forEach(function(document) { %>
+          <li>
+            <strong>Title:</strong> <%= document.title %><br>
+            <strong>Brand:</strong> <%= document.brand %><br>
+            <strong>Model:</strong> <%= document.model %><br>
+            <strong>Price:</strong> <%= document.price %><br>
+          </li>
+        <% }); %>
+      </ul>
+    <% } %>
+  </body>
+</html>

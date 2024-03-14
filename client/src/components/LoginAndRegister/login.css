@@ -1,0 +1,41 @@
+.Login{
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.User{
+    color: black;
+    background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+
+.tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+    width: 100%;
+  }
+
+  .link-b{
+    background: none;
+    color: white;
+    text-decoration: underline;
+    border-radius: 50%;
+}
+
+.auth-form-container,.login-form,.register-form{
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 20px;
+}
+.PW{
+  color: black;
+}
